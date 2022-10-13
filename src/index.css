@@ -1,0 +1,35 @@
+body {
+  font-family: Open Sans, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  transition: color 200ms ease-in-out;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+button {
+  padding: 0;
+  cursor: pointer;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

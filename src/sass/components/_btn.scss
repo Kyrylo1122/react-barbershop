@@ -1,0 +1,29 @@
+.btn {
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-family: Open Sans, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  border: 1px solid var(--accent-color);
+  background-origin: border-box;
+
+  border-color: var(--accent-color);
+  background-color: transparent;
+
+  transition: background-color 300ms ease-in-out;
+  &:focus,
+  &:hover {
+    color: var(--btn--white-text-color);
+    background-color: var(--accent-color);
+    border: 1px solid transparent;
+    background-origin: border-box;
+  }
+  @media screen and (max-width: 480px) {
+    padding: 10px 25px;
+    font-size: 10px;
+  }
+}

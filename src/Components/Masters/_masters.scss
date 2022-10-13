@@ -1,0 +1,40 @@
+.card-description {
+  text-align: center;
+  &__title {
+    margin-top: 30px;
+    margin-bottom: 8px;
+  }
+  &__text {
+    margin-bottom: 30px;
+    color: var(--accent-color);
+  }
+}
+.masters {
+  &__title {
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    margin-bottom: 44px;
+  }
+  &__list {
+    display: flex;
+    flex-direction: row;
+    margin: -15px;
+    align-items: center;
+    @media screen and (max-width: 1200px) {
+      flex-direction: column;
+      margin: -32px;
+    }
+  }
+  &__item {
+    margin: 15px;
+    @media screen and (max-width: 1200px) {
+      margin: 32px;
+    }
+  }
+  &__container {
+    @media screen and (min-width: 767px) and (max-width: 1200px) {
+      padding: 0 159px;
+    }
+  }
+}

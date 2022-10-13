@@ -1,0 +1,82 @@
+.booking {
+  &__title {
+    text-align: center;
+    color: var(--title-white-color);
+    margin-bottom: 44px;
+    @media screen and (max-width: 480px) {
+      font-size: 32px;
+    }
+  }
+  &__form {
+    max-width: 560px;
+    @media screen and (max-width: 1200px) {
+      max-width: 690px;
+    }
+    @media screen and (max-width: 768px) {
+      max-width: 418px;
+    }
+  }
+  &__wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 44px;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+  &__input,
+  &__textarea {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+    @media screen and (max-width: 768px) {
+      margin-bottom: 44px;
+    }
+    &::placeholder {
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 1.36;
+
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+
+      color: rgba(157, 164, 189, 0.4);
+    }
+  }
+  &__input {
+    width: 250px;
+    @media screen and (max-width: 1200px) {
+      width: 330px;
+    }
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+    &--tel {
+      margin-left: 30px;
+
+      @media screen and (max-width: 768px) {
+        margin-bottom: 0;
+        margin-left: 0;
+      }
+    }
+  }
+  &__textarea {
+    display: block;
+    width: 100%;
+    min-height: 85px;
+    margin-bottom: 44px;
+    resize: none;
+  }
+  &__btn {
+    color: var(--btn--white-text-color);
+    display: block;
+    margin-right: auto;
+    margin-top: 44px;
+    padding: 12px 38px;
+    @media screen and (max-width: 768px) {
+      margin-left: auto;
+    }
+  }
+}

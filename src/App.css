@@ -1,0 +1,86 @@
+:root {
+  --pre-title-first-color: rgba(157, 164, 189, 0.6);
+  --pre-title-second-color: #303030;
+  --pre-title-white-color: #ffffff;
+
+  --title-white-color: #ffffff;
+  --title-black-color: #303030;
+
+  --first-text-color: #555555;
+  --second-text-color: #9da4bd;
+  --third-text-color: #303030;
+  --white-text-color: #ffffff;
+
+  --btn--black-text-color: #303030;
+  --btn--white-text-color: #ffffff;
+
+  --backgrround-white-color: #ffffff;
+
+  --logo-white-color: #ffffff;
+  --logo-black-color: #303030;
+
+  --accent-color: #ff6c00;
+}
+.App {
+  text-align: center;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.pre-title {
+  margin-bottom: 20px;
+
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--pre-title-second-color);
+
+  display: flex;
+  align-items: center;
+}
+.pre-title::before {
+  content: "";
+  margin-right: 20px;
+  background-color: var(--pre-title-second-color);
+  width: 60px;
+  height: 1px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 42px;
+  line-height: 1.16;
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--title-black-color);
+}
+.post-title {
+  font-size: 18px;
+  line-height: 1.66;
+  letter-spacing: 0.02em;
+  color: var(--first-text-color);
+  @media screen and (max-width: 1199px) {
+    font-size: 16px;
+    line-height: 1.62;
+  }
+}

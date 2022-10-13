@@ -1,0 +1,29 @@
+.gallery {
+  &__pre-title {
+    margin-bottom: 44px;
+  }
+  &__list {
+    display: flex;
+    @media screen and (max-width: 1200px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+
+    margin: -15px;
+  }
+  &__item {
+    margin: 15px;
+    @media screen and (max-width: 1200px) {
+      width: calc((100% / 2) - 30px);
+    }
+    @media screen and (min-width: 480px) and (max-width: 768px) {
+      width: 418px;
+    }
+    @media screen and (max-width: 480px) {
+      width: 100%;
+    }
+  }
+}

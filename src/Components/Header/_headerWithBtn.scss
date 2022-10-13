@@ -1,0 +1,10 @@
+.header__with-btn {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  display: none;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
+}

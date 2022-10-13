@@ -1,0 +1,38 @@
+.reason {
+  &__wrapp {
+    display: flex;
+    flex-direction: row-reverse;
+    @media screen and (max-width: 1200px) {
+      flex-direction: column;
+    }
+  }
+  &__container {
+    @media screen and (max-width: 1200px) {
+      width: 500px;
+    }
+    @media screen and (max-width: 768px) {
+      width: 418px;
+    }
+    @media screen and (max-width: 480px) {
+      width: 100%;
+    }
+  }
+
+  &__title {
+    @media screen and (max-width: 480px) {
+      font-size: 30px;
+    }
+  }
+
+  &__post-title {
+    font-size: 18px;
+    line-height: 1.67;
+    margin-bottom: 0px;
+    @media screen and (max-width: 1200px) {
+      margin-bottom: 44px;
+    }
+    @media screen and (max-width: 480px) {
+      font-size: 12px;
+    }
+  }
+}
