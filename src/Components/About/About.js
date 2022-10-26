@@ -18,47 +18,51 @@ export default function About() {
               <li className="about-left__item">
                 <picture>
                   <source
-                    srcset={`${tabletFirst}  1x, ${tabletFirstBig} 2x`}
+                    srcSet={`${tabletFirst}  1x, ${tabletFirstBig} 2x`}
                     media="(max-width:1200px)"
                   />
                   <source
-                    srcset={`${desktopFirst}  1x, ${desktopFirstBig} 2x`}
+                    srcSet={`${desktopFirst}  1x, ${desktopFirstBig} 2x`}
                   />
 
-                  <img src={desktopFirst} alt="бреют голову " />
+                  <img
+                    loading="lazy"
+                    src={desktopFirst}
+                    alt="shave off beards "
+                  />
                 </picture>
               </li>
               <li className="about-left__item">
                 <picture>
                   <source
-                    srcset={`${tabletSec}  1x, ${tabletSecBig} 2x`}
+                    srcSet={`${tabletSec}  1x, ${tabletSecBig} 2x`}
                     media="(max-width:1200px)"
                   />
-                  <source srcset={`${desktopSec}  1x, ${desktopSecBig} 2x`} />
+                  <source srcSet={`${desktopSec}  1x, ${desktopSecBig} 2x`} />
 
-                  <img src={tabletSec} alt="бреют голову " />
+                  <img loading="lazy" src={tabletSec} alt="shave off beards" />
                 </picture>
               </li>
             </ul>
           </div>
           <div className="about-right">
-            <p className="pre-title">О НАС</p>
+            <p className="pre-title">ABOUT</p>
             <h2 className="title about__title">
-              Лучший Барбершоп твоего города
+              The best barbershop in your city
             </h2>
             <p className="post-title about__post-title">
-              Если ты хочешь добавить в свой образ больше уверенности – тебе
-              точно к нам.
+              If you want to add more confidence to your image - you should
+              definitely contact us.
             </p>
             <p className="post-title about__text">
-              Мы команда, которая никогда не останавливается на достигнутом и
-              жаждет перемен. И когда ты попадешь в руки нашего мастера, то уже
-              никогда не сможешь быть прежним. Мы команда, которая всегда с
-              клиентами "на одной волне". Поэтому, мы всегда готовы
-              усовершенствовать каждого, кто к нам приходит!
+              We are a team that never rests on its laurels and yearns for
+              change. And when you fall into the hands of our master, then you
+              can never be the same. We are a team that is always on the same
+              wavelength with clients. Therefore, we are always ready to improve
+              everyone who contacts us!
             </p>
             <button type="button" className="btn about__btn">
-              онлайн-запись
+              Booking
             </button>
           </div>
         </div>

@@ -5,13 +5,13 @@ export default function Reason() {
       <div className="container">
         <div className="reason__wrapp">
           <div className="reason__container">
-            <p className="pre-title">старая традиционная школа</p>
+            <p className="pre-title">old traditional school</p>
             <h2 className="title reason__title">
-              Почему приходят именно к нам?
+              Why do customers come to us?{" "}
             </h2>
             <p className="post-title reason__post-title">
-              О нас говорят только хорошее. Но лучше 1 раз увидеть и
-              прочувствовать, чем 10 раз прочитать.
+              They say only good things about us but it's better once to see and
+              to feel than to read 10 times.
             </p>
           </div>
 
@@ -20,26 +20,28 @@ export default function Reason() {
               <li className="reason-set__item">
                 <div className="reason-set__container">
                   <h3 className="reason-set__title">600</h3>
-                  <p className="reason-set__text">Довольных клиентов в день</p>
+                  <p className="reason-set__text">
+                    Satisfied customers per day
+                  </p>
                 </div>
               </li>
               <li className="reason-set__item">
                 <div className="reason-set__container">
                   <h3 className="reason-set__title">50</h3>
-                  <p className="reason-set__text">Наград за отличный сервис</p>
+                  <p className="reason-set__text">Excellent Service Awards</p>
                 </div>
               </li>
               <li className="reason-set__item">
                 <div className="reason-set__container">
                   <h3 className="reason-set__title">20</h3>
-                  <p className="reason-set__text">Лучших мастеров Киева</p>
+                  <p className="reason-set__text">The best masters of Kyiv</p>
                 </div>
               </li>
               <li className="reason-set__item">
                 <div className="reason-set__container">
                   <h3 className="reason-set__title">100</h3>
                   <p className="reason-set__text">
-                    Подарков постоянным клиентам
+                    Gifts for regular customers{" "}
                   </p>
                 </div>
               </li>

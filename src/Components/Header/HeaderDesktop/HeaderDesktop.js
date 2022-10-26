@@ -13,22 +13,22 @@ export default function HeaderDesktop() {
         <ul className="nav__list">
           <li className="nav__item">
             <Link to="about" smooth={true} className="nav__link">
-              О нас
+              About{" "}
             </Link>
           </li>
           <li className="nav__item">
             <Link to="service" smooth={true} className="nav__link">
-              Услуги и цены
+              Services and prices
             </Link>
           </li>
           <li className="nav__item">
             <Link to="masters" smooth={true} className="nav__link">
-              Мастера
+              Masters{" "}
             </Link>
           </li>
           <li className="nav__item">
             <Link to="book" smooth={true} className="nav__link">
-              Контакты
+              Contacts{" "}
             </Link>
           </li>
         </ul>
@@ -37,7 +37,7 @@ export default function HeaderDesktop() {
       <ul className="header-contacts">
         <li className="header-contacts__item">
           <button className="btn header__btn" type="button">
-            онлайн-запись
+            Booking{" "}
           </button>
         </li>
         <li className="header-contacts__item">

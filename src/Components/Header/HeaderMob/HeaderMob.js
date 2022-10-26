@@ -35,7 +35,7 @@ export default function HeaderMob({ onClick, isOpen }) {
                   onClick();
                 }}
               >
-                О нас{" "}
+                About{" "}
               </Link>
             </li>
             <li className="modal-nav__item">
@@ -47,7 +47,7 @@ export default function HeaderMob({ onClick, isOpen }) {
                   onClick();
                 }}
               >
-                Услуги и цены
+                Services and prices{" "}
               </Link>
             </li>
             <li className="modal-nav__item">
@@ -59,7 +59,7 @@ export default function HeaderMob({ onClick, isOpen }) {
                   onClick();
                 }}
               >
-                Мастера
+                Masters
               </Link>
             </li>
             <li className="modal-nav__item">
@@ -71,7 +71,7 @@ export default function HeaderMob({ onClick, isOpen }) {
                   onClick();
                 }}
               >
-                Контакты
+                Contacts
               </Link>
             </li>
           </ul>
@@ -87,7 +87,7 @@ export default function HeaderMob({ onClick, isOpen }) {
               </a>
             </li>
             <li className="mob-contacts__item">
-              <button className="btn modal__btn">онлайн-запись</button>
+              <button className="btn modal__btn">booking</button>
             </li>
           </ul>
           <ul className="mob-social">

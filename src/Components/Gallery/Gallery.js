@@ -32,77 +32,81 @@ export default function Gallery() {
     <section className="gallery section">
       <div className="container">
         <p className="pre-title gallery__pre-title">
-          На латинском языке “барба” означает “борода”
+          In Latin, "barba" means "beard"{" "}
         </p>
         <h2 className="visually-hidden">gallery</h2>
         <ul className="gallery__list">
           <li className="gallery__item">
             <picture>
               <source
-                srcset={`${galleryFirstMob} 1x, ${galleryFirstMobBig} 2x`}
+                srcSet={`${galleryFirstMob} 1x, ${galleryFirstMobBig} 2x`}
                 media="(max-width:768px)"
               />
               <source
-                srcset={`${galleryFirstTablet} 1x, ${galleryFirstTabletBig} 2x`}
+                srcSet={`${galleryFirstTablet} 1x, ${galleryFirstTabletBig} 2x`}
                 media="(max-width:1200px)"
               />
               <source
-                srcset={`${galleryFirstDesktop} 1x, ${galleryFirstDesktopBig} 2x`}
+                srcSet={`${galleryFirstDesktop} 1x, ${galleryFirstDesktopBig} 2x`}
               />
 
-              <img src={galleryFirstMob} alt="gallery1" />
+              <img loading="lazy" src={galleryFirstMob} alt="gallery1" />
             </picture>
           </li>
           <li className="gallery__item">
             <picture>
               <source
-                srcset={`${gallerySecondMob} 1x, ${gallerySecondMobBig} 2x`}
+                srcSet={`${gallerySecondMob} 1x, ${gallerySecondMobBig} 2x`}
                 media="(max-width:768px)"
               />
               <source
-                srcset={`${gallerySecondTablet} 1x, ${gallerySecondTabletBig} 2x`}
+                srcSet={`${gallerySecondTablet} 1x, ${gallerySecondTabletBig} 2x`}
                 media="(max-width:1200px)"
               />
               <source
-                srcset={`${gallerySecondDesktop} 1x, ${gallerySecondDesktopBig} 2x`}
+                srcSet={`${gallerySecondDesktop} 1x, ${gallerySecondDesktopBig} 2x`}
               />
 
-              <img src={gallerySecondMob} alt="gallery2 " />
+              <img loading="lazy" src={gallerySecondMob} alt="gallery2 " />
             </picture>
           </li>
           <li className="gallery__item">
             <picture>
               <source
-                srcset={`${galleryThirdMob} 1x, ${galleryThirdMobBig} 2x`}
+                srcSet={`${galleryThirdMob} 1x, ${galleryThirdMobBig} 2x`}
                 media="(max-width:768px)"
               />
               <source
-                srcset={`${galleryThirdTablet} 1x, ${galleryThirdTabletBig} 2x`}
+                srcSet={`${galleryThirdTablet} 1x, ${galleryThirdTabletBig} 2x`}
                 media="(max-width:1200px)"
               />
               <source
-                srcset={`${galleryThirdDesktop} 1x, ${galleryThirdDesktopBig} 2x`}
+                srcSet={`${galleryThirdDesktop} 1x, ${galleryThirdDesktopBig} 2x`}
               />
 
-              <img src={galleryThirdMob} alt="gallery2 " />
+              <img loading="lazy" src={galleryThirdMob} alt="gallery2 " />
             </picture>
           </li>
           <li className="gallery__item">
             {" "}
             <picture>
               <source
-                srcset={`${galleryFourthMob} 1x, ${galleryFourthMobBig} 2x`}
+                srcSet={`${galleryFourthMob} 1x, ${galleryFourthMobBig} 2x`}
                 media="(max-width:768px)"
               />
               <source
-                srcset={`${galleryFourthTablet} 1x, ${galleryFourthTabletBig} 2x`}
+                srcSet={`${galleryFourthTablet} 1x, ${galleryFourthTabletBig} 2x`}
                 media="(max-width:1200px)"
               />
               <source
-                srcset={`${galleryFourthDesktop} 1x, ${galleryFourthDesktopBig} 2x`}
+                srcSet={`${galleryFourthDesktop} 1x, ${galleryFourthDesktopBig} 2x`}
               />
 
-              <img src={galleryFourthMob} alt="барбер стрежет клиента" />
+              <img
+                loading="lazy"
+                src={galleryFourthMob}
+                alt="barber cutting client's hair"
+              />
             </picture>
           </li>
         </ul>

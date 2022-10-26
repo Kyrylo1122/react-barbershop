@@ -4,7 +4,7 @@ export default function BookRight() {
   return (
     <div className="book__right book__wrapp--padding book__wrapp--half">
       <div className="book__right--container">
-        <h2 className="title contacts__title">Контакты</h2>
+        <h2 className="title contacts__title">Contacts</h2>
         <ul className="contacts-wrap">
           <li className="contacts-wrap__item">
             <div className="contacts__left">
@@ -16,7 +16,7 @@ export default function BookRight() {
                       className="contacts__link"
                     >
                       <FiMapPin size="1.5rem" color="white" />
-                      <span>ул. Васильковая, 7А, Киев, 08132</span>
+                      <span>Vasilkova street, 7A, Kyiv, 08132</span>
                     </a>
                   </li>
                   <li className="contacts__item">
@@ -40,8 +40,8 @@ export default function BookRight() {
           </li>
           <li className="contacts-wrap__item">
             <div className="contacts__right">
-              <p className="pre-title contacts__pre-title">время работы</p>
-              <p className="contacts__text">Ежедневно с 9:00 до 22:00</p>
+              <p className="pre-title contacts__pre-title">working hours</p>
+              <p className="contacts__text">Daily from 9:00 to 22:00</p>
             </div>
           </li>
         </ul>

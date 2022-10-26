@@ -33,25 +33,25 @@ export default function Masters() {
     <section className="masters" id="masters">
       <div className="container masters__container">
         <p className="pre-title masters__pre-title">
-          для настоящих ценителей атмосферы
+          for true connoisseurs of the atmosphere{" "}
         </p>
-        <h2 className="title masters__title">Наши мастера</h2>
+        <h2 className="title masters__title">Our masters</h2>
         <ul className="masters__list">
           <li className="masters__item">
             <picture>
               <source
-                srcset={`${masterFirstMob} 1x, ${masterFirstMobBig} 2x`}
+                srcSet={`${masterFirstMob} 1x, ${masterFirstMobBig} 2x`}
                 media="(max-width:768px)"
               />
               <source
-                srcset={`${masterFirstTablet} 1x, ${masterFirstTabletBig} 2x`}
+                srcSet={`${masterFirstTablet} 1x, ${masterFirstTabletBig} 2x`}
                 media="(max-width:1200px)"
               />
               <source
-                srcset={`${masterFirstDesktop} 1x, ${masterFirstDesktopBig} 2x`}
+                srcSet={`${masterFirstDesktop} 1x, ${masterFirstDesktopBig} 2x`}
               />
 
-              <img src={masterFirstMob} alt="master1" />
+              <img loading="lazy" src={masterFirstMob} alt="master1" />
             </picture>
             <div className="card-description">
               <h3 className="card-description__title">John Smith</h3>
@@ -62,18 +62,18 @@ export default function Masters() {
           <li className="masters__item">
             <picture>
               <source
-                srcset={`${masterSecondMob} 1x, ${masterSecondMobBig} 2x`}
+                srcSet={`${masterSecondMob} 1x, ${masterSecondMobBig} 2x`}
                 media="(max-width:768px)"
               />
               <source
-                srcset={`${masterSecondTablet} 1x, ${masterSecondTabletBig} 2x`}
+                srcSet={`${masterSecondTablet} 1x, ${masterSecondTabletBig} 2x`}
                 media="(max-width:1200px)"
               />
               <source
-                srcset={`${masterSecondDesktop} 1x, ${masterSecondDesktopBig} 2x`}
+                srcSet={`${masterSecondDesktop} 1x, ${masterSecondDesktopBig} 2x`}
               />
 
-              <img src={masterSecondMob} alt="master2" />
+              <img loading="lazy" src={masterSecondMob} alt="master2" />
             </picture>
             <div className="card-description">
               <h3 className="card-description__title">John Smith</h3>
@@ -84,18 +84,18 @@ export default function Masters() {
           <li className="masters__item">
             <picture>
               <source
-                srcset={`${masterThirdMob} 1x, ${masterThirdMobBig} 2x`}
+                srcSet={`${masterThirdMob} 1x, ${masterThirdMobBig} 2x`}
                 media="(max-width:768px)"
               />
               <source
-                srcset={`${masterThirdTablet} 1x, ${masterThirdTabletBig} 2x`}
+                srcSet={`${masterThirdTablet} 1x, ${masterThirdTabletBig} 2x`}
                 media="(max-width:1200px)"
               />
               <source
-                srcset={`${masterThirdDesktop} 1x, ${masterThirdDesktopBig} 2x`}
+                srcSet={`${masterThirdDesktop} 1x, ${masterThirdDesktopBig} 2x`}
               />
 
-              <img src={masterThirdMob} alt="master2" />
+              <img loading="lazy" src={masterThirdMob} alt="master2" />
             </picture>
 
             <div className="card-description">

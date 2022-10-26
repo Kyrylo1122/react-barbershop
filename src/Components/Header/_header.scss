@@ -46,7 +46,7 @@
 
     &__link {
       font-weight: 600;
-      font-size: 12px;
+      font-size: 16px;
       line-height: 1.33;
       text-align: center;
       letter-spacing: 0.1em;
@@ -55,6 +55,9 @@
       &:focus,
       &:hover {
         color: var(--accent-color);
+      }
+      @media screen and (max-width: 1200px) {
+        font-size: 12px;
       }
     }
   }
@@ -71,12 +74,15 @@
   }
   &__link {
     font-weight: 600;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.33;
     letter-spacing: 0.1em;
     padding: 25px 0;
 
     color: var(--white-text-color);
+    @media screen and (max-width: 1200px) {
+      font-size: 12px;
+    }
     &:focus,
     &:hover {
       color: var(--accent-color);
