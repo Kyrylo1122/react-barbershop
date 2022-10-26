@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-barbershop/static/css/main.7ff64cce.css",
-    "main.js": "/react-barbershop/static/js/main.4b346e63.js",
+    "main.css": "/react-barbershop/static/css/main.a89e8631.css",
+    "main.js": "/react-barbershop/static/js/main.853bb29b.js",
     "static/media/tabl.contacts.bg@2x.png": "/react-barbershop/static/media/tabl.contacts.bg@2x.1390e07474f01e736b1e.png",
     "static/media/Bgcontacts-bg@2x-min.png": "/react-barbershop/static/media/Bgcontacts-bg@2x-min.c590cd4a4763d67dcc2c.png",
     "static/media/desk.imgservice-bg@2x-min.png": "/react-barbershop/static/media/desk.imgservice-bg@2x-min.763f704ebfffa73da61b.png",
@@ -71,11 +71,11 @@
     "static/media/tablet.about2-min.jpg": "/react-barbershop/static/media/tablet.about2-min.d07ea8ceaf875d176566.jpg",
     "index.html": "/react-barbershop/index.html",
     "static/media/copyright.svg": "/react-barbershop/static/media/copyright.caf042565b00d882f56d.svg",
-    "main.7ff64cce.css.map": "/react-barbershop/static/css/main.7ff64cce.css.map",
-    "main.4b346e63.js.map": "/react-barbershop/static/js/main.4b346e63.js.map"
+    "main.a89e8631.css.map": "/react-barbershop/static/css/main.a89e8631.css.map",
+    "main.853bb29b.js.map": "/react-barbershop/static/js/main.853bb29b.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ff64cce.css",
-    "static/js/main.4b346e63.js"
+    "static/css/main.a89e8631.css",
+    "static/js/main.853bb29b.js"
   ]
 }
