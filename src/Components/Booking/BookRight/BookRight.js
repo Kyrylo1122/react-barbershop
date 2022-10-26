@@ -41,7 +41,7 @@ export default function BookRight() {
           <li className="contacts-wrap__item">
             <div className="contacts__right">
               <p className="pre-title contacts__pre-title">working hours</p>
-              <p className="contacts__text">Daily from 9:00 to 22:00</p>
+              <p className="contacts__text">Everyday from 9:00 to 22:00</p>
             </div>
           </li>
         </ul>
